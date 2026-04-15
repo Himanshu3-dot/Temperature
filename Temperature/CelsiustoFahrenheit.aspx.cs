@@ -16,6 +16,7 @@ namespace Temperature
             else
             {
                 lblResult.Text = "Please enter a valid number.";
+                //mansi
             }
         }
     }
