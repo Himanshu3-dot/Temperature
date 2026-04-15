@@ -12,11 +12,12 @@
 
             Enter Birth Year:
             <asp:TextBox ID="txtBirthYear" runat="server"></asp:TextBox>
-            <br /><br />
+            <br />
+            <br />
 
-            <asp:Button ID="btnCalculate" runat="server" Text="Calculate Age"
-                OnClick="btnCalculate_Click" />
-            <br /><br />
+            <asp:Button ID="btnCalculate" runat="server" Text="Calculate Age" OnClick="btnCalculate_Click" />
+            <br />
+            <br />
 
             Result:
             <asp:Label ID="lblAgeResult" runat="server"></asp:Label>
